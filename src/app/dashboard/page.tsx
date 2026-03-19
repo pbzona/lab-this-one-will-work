@@ -15,7 +15,7 @@ export default async function DashboardPage() {
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold tracking-tight">Items</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-amber-500">Items</h2>
       </div>
       <ItemForm />
       <ItemTable items={allItems} />

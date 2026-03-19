@@ -60,7 +60,7 @@ export default async function ItemDetailPage({
       </Card>
 
       <div>
-        <h3 className="mb-4 text-lg font-semibold">Comments</h3>
+        <h3 className="mb-4 text-lg font-semibold text-amber-500">Comments</h3>
         <CommentList comments={itemComments} itemId={id} />
       </div>
     </div>
